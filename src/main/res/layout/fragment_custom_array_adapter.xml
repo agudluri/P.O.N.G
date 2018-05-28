@@ -1,0 +1,67 @@
+<!-- Look at the height of the list!!-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/FragmentCustomArrayAdapter_ImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_vertical" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/FragmentCustomArrayAdapter_Name_TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-medium"
+            android:maxLines="2"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="22sp"
+            tools:text="Long placeholder location that should wrap to more than 2 lines of text" />
+
+        <TextView
+            android:id="@+id/FragmentCustomArrayAdapter_Rating_TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            tools:text="PG-13" />
+
+        <TextView
+            android:id="@+id/FragmentCustomArrayAdapter_ReleaseDate_TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="14sp"
+            android:textStyle="italic"
+            tools:text="Nov 1, 2017" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/FragmentCustomArrayAdapter_Price_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        tools:text="$49.99" />
+
+</LinearLayout>

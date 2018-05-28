@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cs442.svaccaro.pong.MainPage">
+
+    <TextView
+        android:id="@+id/appTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@color/colorTextBox"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="75sp" />
+
+    <ToggleButton
+        android:id="@+id/Recent_Popular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SearchAndEdit"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#cfcdcd"
+        android:text="ToggleButton"
+        android:textOff="Popular Now"
+        android:textOn="Recent Searches"
+        android:textSize="25sp" />
+
+    <ListView
+        android:id="@+id/RecentPopList"
+        android:layout_width="399dp"
+        android:layout_height="334dp"
+        android:layout_below="@+id/Recent_Popular"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff" />
+
+    <LinearLayout
+        android:layout_below="@+id/appTitle"
+        android:id="@+id/SearchAndEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <EditText
+            android:layout_margin="5dp"
+            android:layout_weight="0.70"
+            android:id="@+id/SearchBar"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:layout_weight="0.30"
+            android:id="@+id/SearchLaunch"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Search" />
+
+    </LinearLayout>
+</RelativeLayout>

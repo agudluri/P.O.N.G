@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">P.O.N.G.</string>
+    <string name="Slogan">Pricing Old and New Games</string>
+
+
+    <string name="could_not_load">Could not get any Results for the Search Term.</string>
+
+    <!-- Titles for the ResultActivity's pages-->
+    <string name="pc_page_title">PC</string>
+    <string name="xbox_page_title">Xbox</string>
+    <string name="playstation_page_title">PlayStation</string>
+    <string name="no_internet">No Internet Connection</string>
+    <string name="filter_search">Filter</string>
+    <string name="sort">Sort</string>
+</resources>

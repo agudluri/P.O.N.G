@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/button_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:weightSum="2.0">
+
+        <Button
+            android:id="@+id/bt_filter"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_weight="1.0"
+            android:background="@drawable/button_layout"
+            android:text="@string/filter_search"
+            android:theme="@style/ThemeOverlay.MyDarkButton" />
+
+        <android.support.v4.widget.Space
+            android:layout_width="10dp"
+            android:layout_height="10dp" />
+
+        <Button
+            android:id="@+id/bt_sort"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_weight="1.0"
+            android:background="@drawable/button_layout"
+            android:text="@string/sort"
+            android:theme="@style/ThemeOverlay.MyDarkButton" />
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_below="@+id/button_layout"
+        android:id="@+id/SearchResultList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff" />
+
+    <ProgressBar
+        android:background="@color/colorPrimary"
+        android:visibility="gone"
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:id="@+id/tv_could_not_load"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/could_not_load"/>
+
+</RelativeLayout>

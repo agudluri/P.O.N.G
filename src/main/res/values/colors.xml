@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#929294</color>
+    <color name="colorPrimaryDark">#5b5c5c</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="colorBackground">#000</color>
+    <color name="colorTextBox">#acabab</color>
+    <color name="selectablecolor">#333333</color>
+    <color name="background_holo_light">#000000</color>
+    <color name="white_light">#FFFFFF</color>
+</resources>

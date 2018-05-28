@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+  <!--  <TextView
+        android:id="@+id/MainActivity_Description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="Enter keyword:"
+        android:textSize="22sp" />
+-->
+
+    <EditText
+        android:id="@+id/MainActivty_Edit_Text"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:background="@drawable/mainactivity_edit_text"
+        android:fontFamily="sans-serif"
+        android:inputType="textCapSentences"
+        android:textColor="@color/colorPrimary"
+        android:hint="Enter Keyword"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/MainActivity_Search_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Search" />
+
+        <Button
+            android:id="@+id/MainActivity_Reset_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Reset" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
