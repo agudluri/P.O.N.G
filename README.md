@@ -11,7 +11,7 @@ Pricing Old and New Games (P.O.N.G.) is an android application that allows  you,
 * Saves time on searching the web for each game.
 
 #### Screeshots
-
+![Optional Text](../master/Screenshots/Picture1.png)
 ![alt text](https://raw.githubusercontent.com/amangudluri/P.O.N.G/blob/master/Screenshots/Picture1.png)
 
 
