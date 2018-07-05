@@ -12,8 +12,6 @@ Pricing Old and New Games (P.O.N.G.) is an android application that allows  you,
 
 #### Screeshots
 
-#### User guide
-
 #### Contributors
 Stephanie Vaccaro, Aman Gudluri, Uzma Naaz
 _Illinois Institute of Technology_, Chicago, IL.
