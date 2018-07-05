@@ -12,6 +12,9 @@ Pricing Old and New Games (P.O.N.G.) is an android application that allows  you,
 
 #### Screeshots
 
+![alt text](https://raw.githubusercontent.com/amangudluri/P.O.N.G/blob/master/Screenshots/Picture1.png)
+
+
 #### Contributors
 Stephanie Vaccaro, Aman Gudluri, Uzma Naaz
 _Illinois Institute of Technology_, Chicago, IL.
